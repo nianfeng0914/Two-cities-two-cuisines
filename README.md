@@ -1,5 +1,7 @@
 # Two cities, two cuisines
-All the original code (.ipynb) for our group case
+
+How to make your restaurant survive in a city where your competitors are stronger?
+
 ## Group Members
 
 LIU Gang    	55454180
