@@ -42,7 +42,7 @@ The amount of Hunan restaurant in Chengdu [URL](https://www.dianping.com/search/
 Ranked by popularity and the respective score for taste，environment，service [URL](http://www.dianping.com/search/keyword/8/10_湘菜/o2p1)
 
 ## Our original codes to crawl the scores for example
-```Python
+```python
 headers = {'Host': 'www.dianping.com',
     'Referer': 'http://www.dianping.com/shop/22711693',
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/535.19',
@@ -103,7 +103,7 @@ pd_changshachuancai=pd.DataFrame.from_dict(data_4,orient='index').transpose()
 print(pd_changshachuancai.info())
 ```
 ## Our original codes to transfer the name of location for example
-```Python
+```python
 wuyi=[]
 for i in df['地区']:
     if i.__contains__('r6025'):
