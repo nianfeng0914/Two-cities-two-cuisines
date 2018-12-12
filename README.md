@@ -1,4 +1,4 @@
-# Two-cities-two-cuisines
+# Two cities, two cuisines
 All the original code (.ipynb) for our group case
 ## Group Members
 
