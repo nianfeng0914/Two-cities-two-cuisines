@@ -100,4 +100,14 @@ data_4={
 pd_changshachuancai=pd.DataFrame.from_dict(data_4,orient='index').transpose()
 print(pd_changshachuancai.info())
 ```
-
+## Our original codes to transfer the name of location for example
+```Python
+wuyi=[]
+for i in df['地区']:
+    if i.__contains__('r6025'):
+        wuyi.append(True)
+    else:
+        wuyi.append(False)
+        
+df['地区'][wuyi]='五一广场'
+```
